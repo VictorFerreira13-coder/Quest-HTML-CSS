@@ -1,0 +1,12 @@
+@media(max-width: 375px){
+    body{
+        background: url(//src/images/bg-mobile.svg);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
