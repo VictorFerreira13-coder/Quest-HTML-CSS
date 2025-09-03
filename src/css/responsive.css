@@ -1,12 +1,26 @@
-@media(max-width: 375px){
-    body{
-        background: url(//src/images/bg-mobile.svg);
+@media(max-width: 375px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
     }
 
-    main{
-        display: flex;
+    body {
         flex-direction: column;
+    }
+
+    .cabecalho img {
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .principal .texto-principal {
+        text-align: center;
+    }
+
+    .social {
+        margin: 0;
         justify-content: center;
-        align-items: center;
     }
 }
